@@ -1,4 +1,7 @@
-# App to get weather 
+# App to get weather.
+# TalkPython course.
+# App 5
+
 import collections
 import requests
 
@@ -98,18 +101,3 @@ def convert_api_to_weather(loc, data):
 
 if __name__ == "__main__":
     main()
-
-'''
-python bytes api
-https://weather.talkpython.fm/?city=Dallas&state=tx
-
-
-    # print(response.status_code)
-    # print(response.text)
-    # print(type(response.text))
-    # print()
-    # # this method converts the json response to a dict.
-    # print(response.json())
-    # print(type(response.json()))
-    # https://openweathermap.org/
-'''
