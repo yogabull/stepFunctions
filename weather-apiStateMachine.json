@@ -1,0 +1,84 @@
+{
+    "resourceType": "lambda",
+    "resource": "invoke",
+    "output": {
+      "ExecutedVersion": "$LATEST",
+      "Payload": {
+        "statuscode": 200,
+        "body": {
+          "weather": {
+            "description": "heavy intensity rain",
+            "category": "Rain"
+          },
+          "wind": {
+            "speed": 14.97,
+            "deg": 200
+          },
+          "units": "imperial",
+          "forecast": {
+            "temp": 49.42,
+            "feels_like": 43.92,
+            "pressure": 992,
+            "humidity": 92,
+            "low": 47,
+            "high": 50
+          },
+          "location": {
+            "city": "London",
+            "state": null,
+            "country": "UK"
+          },
+          "rate_limiting": {
+            "unique_lookups_remaining": 49,
+            "lookup_reset_window": "1 hour"
+          }
+        }
+      },
+      "SdkHttpMetadata": {
+        "AllHttpHeaders": {
+          "X-Amz-Executed-Version": [
+            "$LATEST"
+          ],
+          "x-amzn-Remapped-Content-Length": [
+            "0"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "x-amzn-RequestId": [
+            "68192d7e-ebf7-4357-ae64-1d3ba2d70fbe"
+          ],
+          "Content-Length": [
+            "414"
+          ],
+          "Date": [
+            "Sun, 13 Feb 2022 22:18:14 GMT"
+          ],
+          "X-Amzn-Trace-Id": [
+            "root=1-620983a6-1cdf3fe40d05edc961bf2c2c;sampled=0"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        },
+        "HttpHeaders": {
+          "Connection": "keep-alive",
+          "Content-Length": "414",
+          "Content-Type": "application/json",
+          "Date": "Sun, 13 Feb 2022 22:18:14 GMT",
+          "X-Amz-Executed-Version": "$LATEST",
+          "x-amzn-Remapped-Content-Length": "0",
+          "x-amzn-RequestId": "68192d7e-ebf7-4357-ae64-1d3ba2d70fbe",
+          "X-Amzn-Trace-Id": "root=1-620983a6-1cdf3fe40d05edc961bf2c2c;sampled=0"
+        },
+        "HttpStatusCode": 200
+      },
+      "SdkResponseMetadata": {
+        "RequestId": "68192d7e-ebf7-4357-ae64-1d3ba2d70fbe"
+      },
+      "StatusCode": 200
+    },
+    "outputDetails": {
+      "truncated": false
+    }
+  }
